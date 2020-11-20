@@ -2,6 +2,10 @@
 Just Raspberry Pi Things
 
 
+## Knowledge
+
+1. Raspberry does not come with its own time-server
+
 ## Pi-Hole
 
 
