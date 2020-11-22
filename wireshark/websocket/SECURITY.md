@@ -43,6 +43,10 @@ openssl x509 -req -days 365 -in test.csr -signkey test.key -out test.crt
 
 4. Concatenate Private Key and Certificate to PEM file. This file is stored in secure `etc/ssl/private/*.pem` directory.
 
+
+
+> `/etc/ssl/private` is secure. Only `sudo -i` works in opening the PEM file
+
 ```
 sudo bash -c 'cat test.key test.crt >> /etc/ssl/private/test.pem' 
 
