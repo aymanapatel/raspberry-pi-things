@@ -1,0 +1,14 @@
+{
+  "name": "websocket-demo",
+  "version": "1.0.0",
+  "description": "Demo to see Wireshark packets in Wireshark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayman Patel",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.32"
+  }
+}
