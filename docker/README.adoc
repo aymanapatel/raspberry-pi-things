@@ -1,0 +1,13 @@
+= Docker and docker-compose: https://devdojo.com/bobbyiliev/how-to-install-docker-and-docker-compose-on-raspberry-pi[Link]
+:icons:font
+
+- Docker
+   1. Get shell script : `curl https://get.docker.com -o get-docker.sh` 
+   2. Run schell script: `get-docker.sh`
+   
+NOTE: Check `get-docker.sh` for the docker install shell script (not docker-compose)
+
+- Docker Compose : 
+  1. Through pip: `pip3 install docker-compose` 
+
+
